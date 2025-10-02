@@ -1,1 +1,2 @@
-print("hallo wira")
+a = input("masukkan angka ")
+print (a)
