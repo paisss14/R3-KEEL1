@@ -1,1 +1,2 @@
-print ("masih proses kak")
+a = input("masukkan nama = ")
+print ("nama saya ", a)
