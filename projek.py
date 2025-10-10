@@ -1,25 +1,11 @@
-n = int(input("Masukkan angka : "))
-for i in range(1,n + 1):
-    if i == n:
-        print("Kapal Karam")
-    elif i % 3 == 0 and i % 5 == 0:
-        continue
-    elif i % 11 == 0:
-        print("DPA Asiq")
-    else:
-        print(i)
-#tambahan aja
+# ini fungsi buat ngitung diskonnya
+def hitung_diskon(harga, diskon):
+    return harga - (harga * diskon / 100)
 
-print("Hello World")
-
-n = int(input("Masukkan angka : "))
-for i in range(1,n + 1):
-    if i == n:
-        print("Kapal Karam")
-    elif i % 3 == 0 and i % 5 == 0:
-        continue
-    elif i % 11 == 0:
-        print("DPA Asiq")
+def kategori_diskon(diskon):
+    if diskon < 20:
+        return "💸 Hemat kecil"
+    elif diskon < 50:
+        return "💰 Hemat sedang"
     else:
-        print(i)
-print("hLLO")
+        return "🎉 Hemat besar!"
