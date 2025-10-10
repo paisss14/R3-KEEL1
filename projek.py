@@ -1,4 +1,3 @@
-# Ngetes aja ini bang ntar dihapus aja wkwkw
 n = int(input("Masukkan angka : "))
 for i in range(1,n + 1):
     if i == n:
@@ -9,3 +8,4 @@ for i in range(1,n + 1):
         print("DPA Asiq")
     else:
         print(i)
+#tambahan aja
