@@ -15,3 +15,8 @@ diskon = int(input("Masukkan diskon (%): "))
 nama_barang = input("masukkan nama barang mu: ")
 harga_akhir = hitung_diskon(harga_awal, diskon)
 harga_diskon = harga_awal - harga_akhir
+
+print("===== Kalkulator Diskon =====")
+print(f"📦 Barang = {nama_barang}")
+print(f"💵 Harga awal = {harga_awal}")
+print(f"🔖 Diskon = {diskon}")
